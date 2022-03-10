@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>REST API</title>
+</head>
+<body>
+    <main>
+        <label>Họ và tên:</label>
+        <input type="text" id="name-input">
+        <button id="add-name-btn">Thêm </button>
+
+        <br><br><br>
+        <div>
+           <input placeholder="Tìm kiếm" id="search-input">
+           <button id="search-btn">Tìm</button>
+        </div>
+
+        <table id="table">
+            <thead>
+                <th>ID</th>
+                <th>Họ và tên</th>
+                <th>Ngày thêm</th>
+                <th>Xoá</th>
+                <th>Sửa</th>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <section hidden id="update-row">
+            <label>Họ và tên:</label>
+            <input type="text" id="update-name-input">
+            <button id="update-row-btn">Cập nhật</button>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
